@@ -1,32 +1,74 @@
 import React from 'react'
-//import {logo} from "../../assets/img/logo"
+import IMG from "../../assets/img/81Wre-ue9SL.jpg"
 
 const ProductList = () => {
   return (
     <>
-<h1 className="title">PRODUCTOS</h1>
-<div className="productos">
-    <a href='#'></a> 
-</div>
-<div className="producto">
-<div className="producto_footer">
-    <h1>Title</h1>
-    <p>Categoría</p>
-    <p className="price">€320</p>
-</div>
-<div className="button">
-<button className='btn'>
-</button>
-</div>
-<a href='#' className='btn'>Vista</a>
-
-</div>
+      <h1 className="title">PRODUCTOS</h1>
+      <div className="productos">
+        <div className="producto">
+          <a href='#'>
+            <div className="producto_img">
+              <img src={IMG} alt="" />
+            </div>
+          </a>
+          <div className="producto_footer">
+            <h1>Title</h1>
+            <p>Categoría</p>
+            <p className="price">€320</p>
+          </div>
+          <div className="buttom">
+            <button className='btn'>
+              Añadir al carrito
+            </button>
+            <div>
+              <a href='#' className='btn'>Vista</a>
+            </div>
+          </div>
+        </div>
+        <div className="producto">
+          <a href='#'>
+            <div className="producto_img">
+              <img src={IMG} alt="" />
+            </div>
+          </a>
+          <div className="producto_footer">
+            <h1>Title</h1>
+            <p>Categoría</p>
+            <p className="price">€320</p>
+          </div>
+          <div className="buttom">
+            <button className='btn'>
+              Añadir al carrito
+            </button>
+            <div>
+              <a href='#' className='btn'>Vista</a>
+            </div>
+          </div>
+        </div>
+        <div className="producto">
+          <a href='#'>
+            <div className="producto_img">
+              <img src={IMG} alt="" />
+            </div>
+          </a>
+          <div className="producto_footer">
+            <h1>Title</h1>
+            <p>Categoría</p>
+            <p className="price">€320</p>
+          </div>
+          <div className="buttom">
+            <button className='btn'>
+              Añadir al carrito
+            </button>
+            <div>
+              <a href='#' className='btn'>Vista</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
-   
   )
 }
 
 export default ProductList
-
-
-
