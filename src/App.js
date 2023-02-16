@@ -17,7 +17,8 @@
 
 // export default App;
 import React from "react";
-import { NavBar } from "./components/Navbar/Navbar";
+ import { NavBar } from "./components/Navbar/Navbar";
+
 //import { ProductsList } from "./Components/products";
 import "boxicons";
 import { Products } from "./components/Products/Products";
@@ -25,6 +26,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import {DataProvider } from "./components/Context/DataProvider"
 import { Carrito } from "./components/Carrito";
+
 
 function App() {
   return (

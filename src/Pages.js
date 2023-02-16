@@ -16,6 +16,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Home from "./Home";
 import { ProductsList } from "./products/Products";
+import {ProductDetail} from "./products/ProductDetail"
 
 export const Pages = () => {
   return (
@@ -23,6 +24,7 @@ export const Pages = () => {
       <Route>
         <Route path="/" exact element={Home} />
         <Route path="/products" exact element={ProductsList} />
+        <Route path="/product/:id" exact element={ProductDetail} />
       </Route>
     </section>
   );
