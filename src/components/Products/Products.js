@@ -1,4 +1,4 @@
-import React, {useContext} from 'react'
+import React, {useContext} from 'react';
 import { DataContext } from '../Context/DataProvider'; 
 import { ProductItem } from './ProductItem';
 
@@ -7,10 +7,9 @@ export const Products = () => {
   const value= useContext(DataContext)
   const [products] = value.products
 
- console.log(products)
   return (
     <>
-      <h1 className="title">PRODUCTS</h1>
+      <h1 className="title">SMARTPHONES</h1>
       <div className="products">
         {
           products.map(product=>(

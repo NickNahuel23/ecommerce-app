@@ -17,7 +17,8 @@
 
 // export default App;
 import React from "react";
- import { NavBar } from "./components/Navbar/Navbar";
+import  {NavBar}  from "./components/Navbar/Navbar";
+
 
 //import { ProductsList } from "./Components/products";
 import "boxicons";
